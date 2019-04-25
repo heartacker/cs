@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "cs": {
+      "commandName": "Project",
+      "commandLineArgs": "\"Console.WriteLine(\\\"Hello World\\\");\""
+    }
+  }
+}
