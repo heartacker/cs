@@ -44,7 +44,7 @@ namespace CodeProviders
 
         private static void PrintHelp()
         {
-            Log("cs - An unix cli tool to execute arbitrary CSharp code");
+            Log("cscript - An unix cli tool to execute arbitrary CSharp code");
             Log("Usage:");
             Log("cs <csharp code>");
             Log("");

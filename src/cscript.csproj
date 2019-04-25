@@ -5,9 +5,9 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
 
     <PackAsTool>true</PackAsTool>
-    <ToolCommandName>cs</ToolCommandName>
+    <ToolCommandName>cscript</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
-    <Version>0.0.1</Version>
+    <Version>0.0.1-pre2</Version>
   </PropertyGroup>
 
   <ItemGroup>
