@@ -42,6 +42,18 @@ namespace CodeProviders
             Eval(args[0], standardInput.ToString());
         }
 
+        private static void PrintHelp()
+        {
+            Log("cs - An unix cli tool to execute arbitrary CSharp code");
+            Log("Usage:");
+            Log("cs <csharp code>");
+            Log("");
+            Log("Example:");
+            Log("cat cs.csproj |  cs \"var x = 10; Echo(x + arg.Split('<')[1]);\"");
+            Log("");
+            Log("(Echo is an alias to Console.WriteLine)");
+        }
+
         static void Log(string message)
         {
             Console.WriteLine(message);
@@ -50,6 +62,9 @@ namespace CodeProviders
         static void LogError(string message)
         {
             Log($"[ERROR] {message}");
+            Log("");
+            Log("");
+            PrintHelp();
             Environment.Exit(1);
         }
 
