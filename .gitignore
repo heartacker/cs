@@ -254,3 +254,13 @@ key-*-*-*-*-*.xml
 
 
 *.ncrunchproject
+
+\.vscode/launch\.json
+
+\.vscode/settings\.json
+
+\.vscode/tasks\.json
+
+src/\.Program\.cs\.swp
+
+*.swp

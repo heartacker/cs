@@ -79,6 +79,7 @@ namespace CodeProviders
             using System.IO;
             using System.Text;
             using System.Reflection;
+            using System.Linq;
             using System.Collections.Generic;
             namespace cs
             {

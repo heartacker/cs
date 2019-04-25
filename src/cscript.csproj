@@ -7,7 +7,10 @@
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>cscript</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
-    <Version>0.0.1-pre2</Version>
+
+    <Title>cscript</Title>
+    <Description>An unix cli tool to execute arbitrary CSharp code</Description>
+    <Version>0.0.1-pre3</Version>
   </PropertyGroup>
 
   <ItemGroup>
