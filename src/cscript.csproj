@@ -5,12 +5,12 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
 
     <PackAsTool>true</PackAsTool>
-    <ToolCommandName>csharp</ToolCommandName>
+    <ToolCommandName>cs</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
 
-    <Title>./csharp</Title>
+    <Title>./cs</Title>
     <Description>An unix cli tool to execute arbitrary CSharp code</Description>
-    <Version>1.0.0-pre5</Version>
+    <Version>1.0.0-pre6</Version>
   </PropertyGroup>
 
   <ItemGroup>
