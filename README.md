@@ -1,11 +1,11 @@
-# cscript - An unix cli tool to execute arbitrary CSharp code
+# csharp - An unix cli tool to execute arbitrary CSharp code
 
 Usage:
 ```
-cscript <csharp code>
+csharp <csharp code>
 ```
 
 Example:
 ```
-cat cs.csproj |  cscript "var x = 10; Echo(x + arg.Split('<')[1]);"
+cat cs.csproj |  csharp "var x = 10; Echo(x + arg.Split('<')[1]);"
 ```

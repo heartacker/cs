@@ -44,12 +44,12 @@ namespace CodeProviders
 
         private static void PrintHelp()
         {
-            Log("cscript - An unix cli tool to execute arbitrary CSharp code");
+            Log("csharp - An unix cli tool to execute arbitrary CSharp code");
             Log("Usage:");
-            Log("cs <csharp code>");
+            Log("csharp <csharp code>");
             Log("");
             Log("Example:");
-            Log("cat cs.csproj |  cs \"var x = 10; Echo(x + arg.Split('<')[1]);\"");
+            Log("cat cs.csproj |  csharp \"var x = 10; Echo(x + arg.Split('<')[1]);\"");
             Log("");
             Log("(Echo is an alias to Console.WriteLine)");
         }
