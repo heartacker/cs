@@ -1,4 +1,4 @@
-# cs - An unix cli tool to execute arbitrary CSharp code
+# cs - An unix cli tool to execute arbitrary C# code
 
 Usage:
 ```
