@@ -10,7 +10,14 @@
 
     <Title>./cs</Title>
     <Description>An unix cli tool to execute arbitrary CSharp code</Description>
-    <Version>1.0.0-pre6</Version>
+    <RepositoryUrl>https://github.com/mustakimali/cs</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Copyright>MIT Licence by Mohammad Mustakim Ali</Copyright>
+    <Authors>Mohammad Mustakim Ali</Authors>
+    <PackageIconUrl>https://i.imgur.com/R6fUE2m.png</PackageIconUrl>
+    <PackageProjectUrl>https://mustak.im</PackageProjectUrl>
+    <Version>1.0.0-pre8</Version>
+
   </PropertyGroup>
 
   <ItemGroup>
