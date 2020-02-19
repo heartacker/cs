@@ -90,7 +90,7 @@ namespace CodeProviders
                         " + code + @"
                     }
 
-                    static void Echo(string arg) => Console.WriteLine(arg);
+                    static void Echo(object arg) => Console.WriteLine(arg);
                 }
             }";
 
